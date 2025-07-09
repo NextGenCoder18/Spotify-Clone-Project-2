@@ -1,0 +1,348 @@
+body{
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  background-color: black;
+  color: #000;
+  overflow: hidden;
+}
+
+body::selection{
+  color: #000;
+  background-color: rgb(0, 255, 229);
+
+}
+.main{
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar{
+  background-color: #000000;
+  width: 320px;
+  border-radius: 1rem; /*1 Rem = 16 px*/
+  margin-right:5px;
+
+}
+
+.main-content{
+  
+  background-color: #121212;
+  width: 1;
+  flex: 1;
+  border-radius: 1rem; 
+  overflow: auto;
+}
+
+.music-player{
+  background-color: rgb(0, 0, 0);
+  position: fixed;
+  bottom: 0%;
+  width: 100%;
+  height: 72px;
+}
+
+ i{
+  text-decoration: none;
+  color: #fff;
+  
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+  margin: 25px;
+}
+
+.nav{
+  background-color: #121212;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100px;
+  padding: 0.5rem 0.75rem;
+  border-radius: 1rem;
+  margin: 7px;
+}
+
+.navbar{
+  line-height: 2.5rem;
+  opacity: 0.5;
+  padding: 0.5rem 0.75;
+}
+
+.navbar:hover{
+  opacity: 1;
+} 
+
+.navbar i{
+  font-size: 1.25rem;
+}
+
+.navbar a{
+  font-size: 1rem;
+}
+
+.lib-option{
+  display: flex;
+  justify-content: space-between;
+  /* background-color: #121212; */
+  margin-bottom:30px;
+}
+
+.lib-option img{
+  height: 1.25rem;
+  width: 1.25rem;
+}
+
+.library{
+  background-color: #121212;
+  padding-top: 10px;
+  padding-left: 10px;
+  height: 100%;
+  margin: 7px;
+
+  border-radius: 1rem;
+}
+
+.plusarrow{
+  width: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 7px;
+  flex: 1;
+}
+
+.yHome{
+  height: 20px;
+  opacity: 0.5;
+  line-height: 1.5rem;
+}
+
+.yHome:hover{
+  opacity:1;
+}
+
+#plus{
+  opacity: 0.5;
+}
+
+#plus:hover{
+  opacity: 1;
+}
+
+#arrow{
+  opacity:0.5;
+}
+
+#arrow:hover{
+  opacity:1;
+}
+
+.box{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 9rem;
+  width: 15rem;
+  background-color: #232323;
+  color: #fff;
+  /* margin: 0.5rem 0 0.5rem 0; */
+  /* padding: 1rem 1.25rem; */
+  border-radius: 1rem;
+  margin-bottom:20px;
+}
+
+.p1{
+  margin-left: 10px;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.p2{
+  margin-left:10px;
+  font-size: 0.9rem;
+  opacity: 0.7;
+}
+
+.badge{
+  border: none;
+  border-radius: 3rem;
+  padding: 0.25rem 1rem;
+  margin-top: 0.5rem;
+  margin-left: 19px;
+  margin-bottom: 9px;
+  height: 2rem;
+  width: fit-content;
+  opacity: 0.75;
+}
+
+.badge:hover{
+  opacity: 1;
+}
+
+.boxes{
+  display: flex;
+  flex-direction:column ;
+
+  
+}
+
+.box1{
+  display: flex;
+  flex-direction: column;
+  justify-content:space-evenly;
+  align-items:flex-start;
+  width: 15rem;
+  background-color: #232323;
+  color: #fff;
+  /* margin: 0.5rem 0 0.5rem 0; */
+  /* padding: 1rem 1.25rem; */
+  border-radius: 1rem;
+  margin-bottom:20px;
+}
+
+.sticky-nav{
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  background-color: black;
+  top: 0;
+
+}
+
+.sticky-nav-img img{
+   height: 2rem;
+   width: 2rem;
+   margin-top: 9px;
+   opacity: 0.5;
+}
+.sticky-nav-img img:hover{
+  opacity: 1;
+}
+
+
+.sticky-nav-options i{
+  opacity: 0.7;
+}
+
+.sticky-nav-options i:hover{
+  opacity: 1;
+}
+
+.cards-container{
+  
+  background-color: #232323;
+  width: 160px;
+  margin: 10px;
+  border-radius: 0.5rem;
+  padding: 1.7rem;
+}
+
+.card-img{
+   width: 100%;
+   border-radius: 0.5rem;
+}
+
+.cards-container:hover{
+  background-color:rgb(76, 75, 75) ;
+}
+
+.three-card{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.Footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.line{
+  
+  height: 100px;
+  width: 90%;
+  /* background-color: aqua; */
+  border-top: 2px solid rgb(163, 160, 160);
+  
+}
+
+.music-player{
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+.album{
+  width: 25%;
+  display: flex;
+}
+
+.player{
+  width: 50%;
+}
+
+.action{
+  width: 25%;
+}
+
+.player-control{
+  display: flex;
+  justify-content: center;
+}
+
+.player-icon{
+  height: 1.9rem;
+  margin: 10px 10px 0 10px;
+}
+
+.player-progress{
+  display: flex;
+  justify-content: center;
+}
+
+.progress-bar{
+  width: 70%;
+}
+
+.album img{
+  padding: 3px;
+  margin: 4px;
+}
+
+.song-name{
+  display: flex;
+  flex-direction: column;
+  margin-top:3px ;
+  margin-left: 15px;
+}
+
+.album-icons img{
+  height: 3rem;
+  
+  
+}
+
+.album-icons{
+  display: flex;
+  margin: auto;
+}
+
+.singer{
+  margin-top: 5px;
+  
+}
+
+.action{
+  display: flex;
+  
+}
+
+.action img{
+  height: 3rem;
+  margin: 18px 6px 0 6px;
+
+}
+

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/png" href="./assets/logo.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Spotify-Web Player: Music for Everyone</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav" style="height: 130px;">
+                <div class="navbar" style="opacity: 1;">
+                    <i class="fa-solid fa-house fa-lg"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="navbar">
+                    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="lib-option">
+                    <div class="yHome">
+                        <img src="./assets/library_icon.png">
+                        <a href="#">Your Home</a>
+                    </div>
+                    <div class="plusarrow">
+                        <i id="plus" class="fa-solid fa-plus"></i>
+                        <i id="arrow" class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="boxes">
+                    <div class="box" style="width: 18rem;">
+                       <p class="p1">Create your first playlist</p>
+                       <p class="p2">It's easy we'll help you</p>
+                       <button class="badge" >Create playlist</button>
+                    </div>
+                    <div class="box1" style="height: 9srem; width: 18rem;">
+                        <p class="p1">Let's find some podcast to follow</p>
+                        <p class="p2">we'll help you updated on new episodes</p>
+                        <button class="badge" >Browse podcasts</button>
+                        
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="sticky-nav">
+                <div class="sticky-nav-img">
+                   <img src="./assets/backward_icon.png" style="margin-right: 20px;">
+                   <img src="./assets/forward_icon.png">
+                </div>
+                <div class="sticky-nav-options">
+                    <button class="badge" style="height: 40px;">Explore Premium</button>
+                    <button class="badge" style="height: 40px;">
+                    <i class="fa-solid fa-circle-down fa-lg" style="color: black;"></i> Install now
+                    </button>
+                    <i class="fa-solid fa-user fa-lg" style="margin: 20px 10px 0px 10px;"></i>
+                </div>
+            </div>
+            
+                <h1 style="color: white; margin: 17px;">Recently played</h1>
+                <div class="cards-container" style="margin:30px;">
+                    <img src="./assets/card1img.jpeg" class="card-img" >
+                    <p class="card-title" style="color: white; margin: 5px; font-weight: 800;">Top - 50 Global</p>
+                    <p class="card-info" style="color: white; opacity: 0.7;">Your daily updates of the most played tracks.....</p>
+                </div>
+
+                <h1 style="color: white; margin: 17px;">Trending Songs</h1>
+
+            <div class="three-card">
+
+                <div class="cards-container" style="margin:30px;">
+                    <img src="./assets/card2img.jpeg" class="card-img" >
+                    <p class="card-title" style="color: white; margin: 5px; font-weight: 800;">Top - 50 Global</p>
+                    <p class="card-info" style="color: white; opacity: 0.7;">Your daily updates of the most played tracks.....</p>
+                </div>
+                <div class="cards-container" style="margin:30px;">
+                    <img src="./assets/card3img.jpeg" class="card-img" >
+                    <p class="card-title" style="color: white; margin: 5px; font-weight: 800;">Top - 50 Global</p>
+                    <p class="card-info" style="color: white; opacity: 0.7;">Your daily updates of the most played tracks.....</p>
+                </div>
+                <div class="cards-container" style="margin:30px;">
+                    <img src="./assets/card4img.jpeg" class="card-img" >
+                    <p class="card-title" style="color: white; margin: 5px; font-weight: 800;">Top - 50 Global</p>
+                    <p class="card-info" style="color: white; opacity: 0.7;">Your daily updates of the most played tracks.....</p>
+                </div>
+                <div class="cards-container" style="margin:30px;">
+                    <img src="./assets/card2img.jpeg" class="card-img" >
+                    <p class="card-title" style="color: white; margin: 5px; font-weight: 800;">Top - 50 Global</p>
+                    <p class="card-info" style="color: white; opacity: 0.7;">Your daily updates of the most played tracks.....</p>
+                </div>
+                <div class="cards-container" style="margin:30px;">
+                    <img src="./assets/card3img.jpeg" class="card-img" >
+                    <p class="card-title" style="color: white; margin: 5px; font-weight: 800;">Top - 50 Global</p>
+                    <p class="card-info" style="color: white; opacity: 0.7;">Your daily updates of the most played tracks.....</p>
+                </div>
+                <div class="cards-container" style="margin:30px;">
+                    <img src="./assets/card4img.jpeg" class="card-img" >
+                    <p class="card-title" style="color: white; margin: 5px; font-weight: 800;">Top - 50 Global</p>
+                    <p class="card-info" style="color: white; opacity: 0.7;">Your daily updates of the most played tracks.....</p>
+                </div>
+            </div>
+            <h1 style="color: white; margin: 17px;">Featured Charts</h1> 
+            <div class="three-card">
+
+                <div class="cards-container" style="margin:30px;">
+                    <img src="./assets/card5img.jpeg" class="card-img" >
+                    <p class="card-title" style="color: white; margin: 5px; font-weight: 800;">Top - 50 Global</p>
+                    <p class="card-info" style="color: white; opacity: 0.7;">Your daily updates of the most played tracks.....</p>
+                </div>
+                <div class="cards-container" style="margin:30px;">
+                    <img src="./assets/card6img.jpeg" class="card-img" >
+                    <p class="card-title" style="color: white; margin: 5px; font-weight: 800;">Top - 50 Global</p>
+                    <p class="card-info" style="color: white; opacity: 0.7;">Your daily updates of the most played tracks.....</p>
+                </div>
+                <div class="cards-container" style="margin:30px;">
+                    <img src="./assets/card1img.jpeg" class="card-img" >
+                    <p class="card-title" style="color: white; margin: 5px; font-weight: 800;">Top - 50 Global</p>
+                    <p class="card-info" style="color: white; opacity: 0.7;">Your daily updates of the most played tracks.....</p>
+                </div>
+                
+            </div>  
+
+            <h1 class="Footer">
+                <div class="line"></div>
+            </h1>
+
+        </div>
+        
+        <div class="music-player">
+
+            <div class="album" style="background-color: rgb(0, 0, 0);">
+                <img src="./assets/album_picture.jpeg" class="album-img">
+                <div class="song-name">
+                    <div class="name" style="color: white; font-size: 30px; opacity: 0.9;">Daylight</div>
+                    <div class="singer" style="color: white; opacity: 0.7;" > by David Kushner</div>
+                </div>
+                <div class="album-icons">
+                    <img src="./assets/album_icon1.png" class="img-album">
+                    <img src="./assets/album_icon2.png" class="img-album">
+                </div>
+            </div>
+
+            <div class="player" style="background-color:rgb(0, 0, 0);">
+                <div class="player-control">
+                    <img src="./assets/player_icon1.png" class="player-icon" >
+                    <img src="./assets/player_icon2.png" class="player-icon" >
+                    <img src="./assets/player_icon3.png" class="player-icon">
+                    <img src="./assets/player_icon4.png" class="player-icon">
+                    <img src="./assets/player_icon5.png" class="player-icon">
+                </div>
+                <div class="player-progress">
+                    <span class="start-time" style="color: white; margin-top:7px">0:00</span>
+                    <input type="range" class="progress-bar" style="margin: 10px;" min="0" max="100" >
+                    <span class="end-time" style="color: white; margin-top:7px ;">3:33</span>
+                </div>
+            </div>
+
+            <div class="action" style="background-color: rgb(0, 0, 0);">
+                 <div class="img"><img src="./assets/controls_icon1.png"></div>
+                 <div class="img"><img src="./assets/controld_icon2.png"  ></div>
+                 <div class="img"><img src="./assets/controls_icon3.png"  ></div>
+                 <div class="img"><img src="./assets/controls_icon4.png"  ></div>
+                 <div class="img"><img src="./assets/controls_icon5.png"></div>
+                 <input type="range" style="margin-top: 15px;">
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>
