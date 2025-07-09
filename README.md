@@ -9,7 +9,7 @@ This is a basic Spotify UI clone built using HTML and CSS. The project includes:
 - Images stored in `assets/` folder
 
 ## 🔗 Live Demo
-[Click here to view it live](https://nextgencoder18.github.io/spotify-clone-Project-2/)
+[Click here to view it live](https://nextgencoder18.github.io/Spotify-Clone-Project-2/)
 
 ## 📸 Preview
 ![Spotify Clone Screenshot](assets/screenshot.png)
